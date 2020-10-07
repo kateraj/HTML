@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{ background-color: lightblue;
+}
+</style>
+</head>
+<body>
+<h2 style="color:blue;">Katera Jefferson & Co. - Customer Information</h2>
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br>
+  <label for="fname">Email Address:</label><br>
+   <input type="text" id="fname" name="fname" value="JohnDoe@mail.com"><br><br>
+  <input type="submit" value="Submit Data">
+</form> 
+
+</body>
+</html>
